@@ -1,0 +1,17 @@
+{
+  "name": "mixxxnovationnocturne",
+  "version": "1.0.0",
+  "main": "Novation-Nocturn-controller.js",
+  "scripts": {
+    "build": "tsc --project tsconfig.build.json",
+    "deploy:linux": "cp ./dist/* $HOME/.mixxx/controllers/.",
+    "setup": "npm run build && npm run deploy:linux",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JayEffKay <jayeffkay84@gmail.com>",
+  "license": "GNU GPL V3",
+  "description": "A controller script for using the Novation Nocturn with Mixxx",
+  "dependencies": {
+    "typescript": "^5.7.2"
+  }
+}

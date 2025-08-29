@@ -1,0 +1,393 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MixxxControllerPreset schemaVersion="1" mixxxVersion="1.8.0+">
+    <info>
+        <name>Novation Nocturn</name>
+        <author>Siebe</author>
+        <description>Novation Nocturn Controller for Mixx</description>
+    </info>
+    <controller id="Nocturn">
+        <scriptfiles>
+            <file filename="Novation-Nocturn-mapping.js" functionprefix=""/>
+            <file filename="Novation-Nocturn-controller.js" functionprefix="NNController"/>
+        </scriptfiles>
+        <controls>
+            <control>
+                <group></group>
+                <key>NNController.speedDailValue</key>
+                <description>Value from Speeddail - relative</description>
+                <status>0xB0</status>
+                <midino>0x4A</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group></group>
+                <key>NNController.crossfaderValue</key>
+                <description>Value from crossfader - absolute</description>
+                <status>0xB0</status>
+                <midino>0x48</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group></group>
+                <key>NNController.knobValue</key>
+                <description>Value from knob 6 - relative</description>
+                <status>0xB0</status>
+                <midino>0x46</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group></group>
+                <key>NNController.knobValue</key>
+                <description>Value from knob 7 - relative</description>
+                <status>0xB0</status>
+                <midino>0x47</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group></group>
+                <key>NNController.knobValue</key>
+                <description>Value from knob 4 - relative</description>
+                <status>0xB0</status>
+                <midino>0x44</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group></group>
+                <key>NNController.knobValue</key>
+                <description>Value from knob 5 - relative</description>
+                <status>0xB0</status>
+                <midino>0x45</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group></group>
+                <key>NNController.knobValue</key>
+                <description>Value from knob 2 - relative</description>
+                <status>0xB0</status>
+                <midino>0x42</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group></group>
+                <key>NNController.knobValue</key>
+                <description>Value from knob 3 - relative</description>
+                <status>0xB0</status>
+                <midino>0x43</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group></group>
+                <key>NNController.knobValue</key>
+                <description>Value from knob 0 - relative</description>
+                <status>0xB0</status>
+                <midino>0x40</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group></group>
+                <key>NNController.knobValue</key>
+                <description>Value from knob 1 - relative</description>
+                <status>0xB0</status>
+                <midino>0x41</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            
+            <control>
+                <group></group>
+                <key>NNController.speedDailPress</key>
+                <description>Press speedDail - press</description>
+                <status>0xB0</status>
+                <midino>0x51</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group></group>
+                <key>NNController.speedDailTouch</key>
+                <description>Touch speedDail - touch</description>
+                <status>0xB0</status>
+                <midino>0x52</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            
+            <control>
+                <group></group>
+                <key>NNController.crossfaderTouch</key>
+                <description>Touch crossfader - touch</description>
+                <status>0xB0</status>
+                <midino>0x53</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            
+            <control>
+                <group></group>
+                <key>NNController.knobTouch</key>
+                <description>Touch knob 0 - touch</description>
+                <status>0xB0</status>
+                <midino>0x60</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group></group>
+                <key>NNController.knobTouch</key>
+                <description>Touch knob 1 - touch</description>
+                <status>0xB0</status>
+                <midino>0x61</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group></group>
+                <key>NNController.knobTouch</key>
+                <description>Touch knob 2 - touch</description>
+                <status>0xB0</status>
+                <midino>0x62</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group></group>
+                <key>NNController.knobTouch</key>
+                <description>Touch knob 3 - touch</description>
+                <status>0xB0</status>
+                <midino>0x63</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group></group>
+                <key>NNController.knobTouch</key>
+                <description>Touch knob 4 - touch</description>
+                <status>0xB0</status>
+                <midino>0x64</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group></group>
+                <key>NNController.knobTouch</key>
+                <description>Touch knob 5 - touch</description>
+                <status>0xB0</status>
+                <midino>0x65</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group></group>
+                <key>NNController.knobTouch</key>
+                <description>Touch knob 6 - touch</description>
+                <status>0xB0</status>
+                <midino>0x66</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group></group>
+                <key>NNController.knobTouch</key>
+                <description>Touch knob 7 - touch</description>
+                <status>0xB0</status>
+                <midino>0x67</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            
+            <control>
+                <group></group>
+                <key>NNController.controlButtonPress</key>
+                <description>Press button 0 - press</description>
+                <status>0xB0</status>
+                <midino>0x70</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group></group>
+                <key>NNController.controlButtonPress</key>
+                <description>Press button 1 - press</description>
+                <status>0xB0</status>
+                <midino>0x71</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group></group>
+                <key>NNController.controlButtonPress</key>
+                <description>Press button 2 - press</description>
+                <status>0xB0</status>
+                <midino>0x72</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group></group>
+                <key>NNController.controlButtonPress</key>
+                <description>Press button 3 - press</description>
+                <status>0xB0</status>
+                <midino>0x73</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group></group>
+                <key>NNController.controlButtonPress</key>
+                <description>Press button 4 - press</description>
+                <status>0xB0</status>
+                <midino>0x74</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group></group>
+                <key>NNController.controlButtonPress</key>
+                <description>Press button 5 - press</description>
+                <status>0xB0</status>
+                <midino>0x75</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group></group>
+                <key>NNController.controlButtonPress</key>
+                <description>Press button 6 - press</description>
+                <status>0xB0</status>
+                <midino>0x76</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group></group>
+                <key>NNController.controlButtonPress</key>
+                <description>Press button 7 - press</description>
+                <status>0xB0</status>
+                <midino>0x77</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group></group>
+                <key>NNController.learnButtonPress</key>
+                <description>Press button 8 (learn) - press</description>
+                <status>0xB0</status>
+                <midino>0x78</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group></group>
+                <key>NNController.viewButtonPress</key>
+                <description>Press button 9 (view) - press</description>
+                <status>0xB0</status>
+                <midino>0x79</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group></group>
+                <key>NNController.deckPageButtonPress</key>
+                <description>Press button A (page -) - press</description>
+                <status>0xB0</status>
+                <midino>0x7A</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group></group>
+                <key>NNController.deckPageButtonPress</key>
+                <description>Press button B (page +) - press</description>
+                <status>0xB0</status>
+                <midino>0x7B</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group></group>
+                <key>NNController.functionPageButtonPress</key>
+                <description>Press button C (user)- press</description>
+                <status>0xB0</status>
+                <midino>0x7C</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group></group>
+                <key>NNController.functionPageButtonPress</key>
+                <description>Press button D (fx) - press</description>
+                <status>0xB0</status>
+                <midino>0x7D</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group></group>
+                <key>NNController.functionPageButtonPress</key>
+                <description>Press button E (inst) - press</description>
+                <status>0xB0</status>
+                <midino>0x7E</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group></group>
+                <key>NNController.functionPageButtonPress</key>
+                <description>Press button F (mixer) - press</description>
+                <status>0xB0</status>
+                <midino>0x7F</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            
+            
+        </controls>
+        <outputs/>
+    </controller>
+</MixxxControllerPreset>
